@@ -1,0 +1,32 @@
+.image{
+  max-height:605px;
+  width: 100%;
+}
+
+.cont {
+ position: relative;
+
+}
+.smallcaption {
+ font-family: Helvetica;
+ float:left;
+ font-size: 14px;
+ color: white;
+ padding: 27% 20px;
+ position: absolute;
+}
+
+.caption {
+ float: left;
+ font-weight: bold;
+ font-size: 80px;
+ color: white;
+ padding: 30% 20px;
+ position: absolute;
+}
+
+.designer {
+ width:103%;
+ background-color: black;
+ height: 800px;
+}
