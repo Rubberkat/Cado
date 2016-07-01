@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-    kebfekbfekekjfbewkf
-    <h1>ekwjfn</h1>
+{% include "navbar.html" %}
+
+{% block content %} {% endblock %}j
+
+{% include "footer.html" %}
 </body>
 </html>

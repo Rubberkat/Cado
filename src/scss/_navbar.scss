@@ -1,0 +1,33 @@
+.navcont{
+  height: 100px;
+  list-style-type: none;
+  margin:0;
+  padding:0 10px 0 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navitem {
+  float: left;
+}
+
+.navlogo {
+  float: left;
+}
+.navlogo a{
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 30px 10px;
+  text-decoration: none;
+  width:40px;
+  border-bottom: 2px solid yellow;
+}
+
+.navitem a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 10px;
+  text-decoration: none;
+}
